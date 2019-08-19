@@ -4,12 +4,18 @@ Identify and merge / versioning of similar files
 Usage
 =====
 In crash or every days saving/cleaning routine:
-   Saving/recovering datas, files, documents, code, projects for any content types.
+   Saving/Merging/Recovering/Cleaning datas, files, documents, code, projects for any content types.
+   
+   * Your PC crashed and you don't have enought memory to handle a big archive
+   * You have many PC, perso/work/old/new and you want to merge/save/synchronize your datas
+   * You want to make regular saving/cleanning using minimal space
+   * You want to organise your datas
    
 Features
 ========
 Make a save on a external memory:
 
+   * Identify potential virus.
    * Identify identical and similar documents. 
    * Make a report.
    * Save documents in the merge arborescence:
@@ -33,3 +39,9 @@ Make a save on a external memory:
         * rebuild of generated files
         * testing scripts
    * Generate a rolback report.
+   
+   Technos
+   =======
+   POC in bash script, then in Python.
+   Using MD5 and Ngrammes algo, to identify identical & similar documents.
+   ClamaV to check virus.
