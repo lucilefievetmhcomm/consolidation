@@ -1,4 +1,4 @@
-# consolidation
+# Consolidation
 Identify and merge / versioning of similar files
 
 Usage
